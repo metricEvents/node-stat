@@ -20,6 +20,7 @@ function nstat() {
     mem: require('./plugins/mem'),
     net: require('./plugins/net'),
     stat: require('./plugins/stat'),
+    top: require('./plugins/top'),
   });
 }
 
